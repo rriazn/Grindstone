@@ -1,0 +1,28 @@
+# Gradle / build output
+.gradle
+/build
+/app/build
+/captures
+.externalNativeBuild
+.cxx
+.kotlin
+
+# Local machine config (SDK path etc.)
+local.properties
+
+# IDE: share only code style and VCS mapping; the rest is per-machine or regenerated on sync
+*.iml
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/vcs.xml
+.DS_Store
+
+# Secrets: never commit signing keys or service configs
+*.jks
+*.keystore
+keystore.properties
+google-services.json
+
+# AI assistant config (local only)
+CLAUDE.md
+.claude/

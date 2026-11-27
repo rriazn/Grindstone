@@ -1,0 +1,6 @@
+# Normalize line endings; the wrapper script must stay LF to run on Linux CI.
+* text=auto
+gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary
+*.webp binary

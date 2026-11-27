@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Grindstone</string>
+
+    <string name="exercise_picker_label">Exercise</string>
+    <string name="reps_label">Reps</string>
+    <string name="weight_label">Weight (kg)</string>
+    <string name="add_set">Add set</string>
+    <string name="empty_state">No sets logged yet. Pick an exercise, enter reps and weight, then tap “Add set”.</string>
+
+    <!-- Example: "8 × 62.5 kg". %1$d = reps, %2$s = weight formatted for the user's locale. -->
+    <string name="set_summary">%1$d × %2$s kg</string>
+    <!-- Content description of the delete button. %1$s = exercise name, %2$s = set summary. -->
+    <string name="delete_set_description">Delete set: %1$s, %2$s</string>
+
+    <string name="reps_error_not_a_number">Enter a whole number</string>
+    <string name="reps_error_out_of_range">Reps must be from %1$d to %2$d</string>
+    <string name="weight_error_not_a_number">Enter a number, e.g. 62.5 or 62,5</string>
+    <string name="weight_error_out_of_range">Weight must be from %1$d to %2$d kg</string>
+
+    <plurals name="weight_error_too_many_decimals">
+        <item quantity="one">Use at most %1$d decimal place</item>
+        <item quantity="other">Use at most %1$d decimal places</item>
+    </plurals>
+
+    <string name="exercise_bench_press">Bench Press</string>
+    <string name="exercise_squat">Squat</string>
+    <string name="exercise_deadlift">Deadlift</string>
+    <string name="exercise_overhead_press">Overhead Press</string>
+    <string name="exercise_barbell_row">Barbell Row</string>
+    <string name="exercise_pull_up">Pull-up</string>
+    <string name="exercise_dip">Dip</string>
+    <string name="exercise_bicep_curl">Bicep Curl</string>
+    <string name="exercise_lat_pulldown">Lat Pulldown</string>
+    <string name="exercise_leg_press">Leg Press</string>
+</resources>
